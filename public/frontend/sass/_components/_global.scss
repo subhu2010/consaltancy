@@ -1,7 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
 * {
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: "Quicksand", sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+  }
+  
+  .bg-transparent {
+    background: transparent !important;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: 1.5;
+    font-weight: 600;
+  }
+  
 ul {
     margin: 0;
     padding: 0;
@@ -15,8 +37,13 @@ a {
 a:hover {
     text-decoration: none;
 }
+p {
+    margin-bottom: 0;
+    font-size: 15px;
+
+}
 .ma-t {
-    margin-top: 40px;
+        margin-top: 40px;
 }
 .ma-b {
     margin-bottom: 40px;
@@ -25,6 +52,7 @@ a:hover {
     margin-top: 40px;
     margin-bottom: 40;
 }
+l
 .pa-b {
     padding-bottom: 40px;
 }
@@ -34,4 +62,43 @@ a:hover {
 .pa-tb {
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+
+.section-title {
+    text-align: center;
+    h2 {
+        text-transform: uppercase;
+        display: inline-block;
+        font-size: 2.1875rem;
+        color: $orange;
+        position: relative;
+        margin-bottom: 2.5rem;
+        &::before {
+            content: '';
+            height: .1875rem;
+            width: 60%;
+            background: $orange;
+            position: absolute;
+            bottom: -1rem;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+
+.more-btn {
+    text-transform: capitalize;
+    background: $orange;
+    color: $white;
+    display: inline-block;
+    padding: .75rem 1.375rem;
+    border: 1px solid $orange;
+    font-size: .875rem;
+    border-radius: 0;
+    font-weight: 600;
+    &:hover {
+        background: transparent;
+        color: $orange;
+    }
 }
