@@ -36,6 +36,7 @@ a {
 }
 a:hover {
     text-decoration: none;
+    color: $black;
 }
 p {
     margin-bottom: 0;
@@ -62,6 +63,9 @@ l
 .pa-tb {
     padding-top: 40px;
     padding-bottom: 40px;
+}
+.bg-grey {
+    background: $grey;
 }
 
 

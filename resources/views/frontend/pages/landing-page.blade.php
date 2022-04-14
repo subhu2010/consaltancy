@@ -32,7 +32,7 @@
 
 
 <!-- about -->
-<section class="home-about pa-tb">
+<section class="home-about bg-grey pa-tb">
     <div class="container">
         <div class="section-title">
             <h2>about us</h2>
@@ -70,7 +70,8 @@
             <div class="col-lg-10 offset-lg-1">
                 <div class="section-title">
                     <h2>study aboard</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae earum molestiae, id ratione vero iure
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae earum molestiae, id ratione vero
+                        iure
                         esse iste laboriosam quisquam quaerat?</p>
                 </div>
             </div>
@@ -81,7 +82,7 @@
                     <div class="card-one-img">
                         <img src="{{asset('frontend/images/3.jpg')}}" class="img-fluid" alt="">
                     </div>
-                    <h2 class="card-one-text">    
+                    <h2 class="card-one-text">
                         <a href="javascript:void(0)">Cananda</a>
                     </h2>
                 </div>
@@ -91,7 +92,7 @@
                     <div class="card-one-img">
                         <img src="{{asset('frontend/images/4.jpg')}}" class="img-fluid" alt="">
                     </div>
-                    <h2 class="card-one-text">    
+                    <h2 class="card-one-text">
                         <a href="javascript:void(0)">united kingdom</a>
                     </h2>
                 </div>
@@ -101,7 +102,7 @@
                     <div class="card-one-img">
                         <img src="{{asset('frontend/images/5.jpg')}}" class="img-fluid" alt="">
                     </div>
-                    <h2 class="card-one-text">    
+                    <h2 class="card-one-text">
                         <a href="javascript:void(0)">new zealand</a>
                     </h2>
                 </div>
@@ -111,7 +112,7 @@
                     <div class="card-one-img">
                         <img src="{{asset('frontend/images/6.jpg')}}" class="img-fluid" alt="">
                     </div>
-                    <h2 class="card-one-text">    
+                    <h2 class="card-one-text">
                         <a href="javascript:void(0)">Usa</a>
                     </h2>
                 </div>
@@ -121,17 +122,283 @@
                     <div class="card-one-img">
                         <img src="{{asset('frontend/images/7.jpg')}}" class="img-fluid" alt="">
                     </div>
-                    <h2 class="card-one-text">    
+                    <h2 class="card-one-text">
                         <a href="javascript:void(0)">Australia</a>
                     </h2>
                 </div>
             </div>
         </div>
         <div class="text-center mt-4">
-                <a href="javascript:void(0)" class="btn more-btn">see more</a>
-            </div>
+            <a href="javascript:void(0)" class="btn more-btn">see more</a>
+        </div>
     </div>
 </section>
 
+<!-- test -->
+<section class="study-aboard bg-grey pa-tb">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="section-title">
+                    <h2>Test preparation</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae earum molestiae, id ratione vero
+                        iure
+                        esse iste laboriosam quisquam quaerat?</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4 g-0 g-4">
+            <div class="col-lg-4">
+                <div class="card-two">
+                    <div class="card-two-img">
+                        <img src="{{asset('frontend/images/gre.png')}}" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-two-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, qui. Reprehenderit, aut
+                            voluptate. Facilis nihil eum tempora! Odit, nihil vel.</p>
+                        <div class="content-more">
+                            <a href="javascript:void(0)">read more <i class="las la-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card-two">
+                    <div class="card-two-img">
+                        <img src="{{asset('frontend/images/sat.png')}}" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-two-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, qui. Reprehenderit, aut
+                            voluptate. Facilis nihil eum tempora! Odit, nihil vel.</p>
+                        <div class="content-more">
+                            <a href="javascript:void(0)">read more <i class="las la-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card-two">
+                    <div class="card-two-img">
+                        <img src="{{asset('frontend/images/tofel.webp')}}" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-two-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, qui. Reprehenderit, aut
+                            voluptate. Facilis nihil eum tempora! Odit, nihil vel.</p>
+                        <div class="content-more">
+                            <a href="javascript:void(0)">read more <i class="las la-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="javascript:void(0)" class="btn more-btn">see more</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- partner slider -->
+<section class="partner-sec pa-tb">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="section-title">
+                    <h2>university</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae earum molestiae, id ratione vero
+                        iure
+                        esse iste laboriosam quisquam quaerat?</p>
+                </div>
+            </div>
+        </div>
+        <div class="partner-slider owl-carousel owl-theme">
+            <div class="item">
+                <div class="partner-img">
+                    <img src="{{asset('frontend/images/logo-1.jpg')}}" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="item">
+                <div class="partner-img">
+                    <img src="{{asset('frontend/images/logo-2.jpg')}}" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="item">
+                <div class="partner-img">
+                    <img src="{{asset('frontend/images/logo-3.jpg')}}" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="item">
+                <div class="partner-img">
+                    <img src="{{asset('frontend/images/logo-4.jpg')}}" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="item">
+                <div class="partner-img">
+                    <img src="{{asset('frontend/images/logo-5.jpg')}}" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- partner slider -->
+<section class="partner-sec bg-grey pa-tb">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="section-title">
+                    <h2>Our student say</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae earum molestiae, id ratione vero
+                        iure
+                        esse iste laboriosam quisquam quaerat?</p>
+                </div>
+            </div>
+        </div>
+        <div class="owl-carousel owl-theme owl-testimonial">
+            <div class="item p-2">
+                <div class="client-card">
+                    <h3>Sinthy Alina</h3>
+                    <span>CEO Of Finec</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non ullamcorper
+                        tortor, vel mattis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <i class="las la-quote-left client-card-quote"></i>
+                    <div class="client-card-img">
+                        <img src="{{asset('frontend/images/agents-01.jpg')}}" alt="Images">
+                    </div>
+                </div>
+            </div>
+            <div class="item p-2">
+                <div class="client-card">
+                    <h3>Sinthy Alina</h3>
+                    <span>CEO Of Finec</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non ullamcorper
+                        tortor, vel mattis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <i class="las la-quote-left client-card-quote"></i>
+                    <div class="client-card-img">
+                        <img src="{{asset('frontend/images/agents-01.jpg')}}" alt="Images">
+                    </div>
+                </div>
+            </div>
+            <div class="item p-2">
+                <div class="client-card">
+                    <h3>Sinthy Alina</h3>
+                    <span>CEO Of Finec</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non ullamcorper
+                        tortor, vel mattis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <i class="las la-quote-left client-card-quote"></i>
+                    <div class="client-card-img">
+                        <img src="{{asset('frontend/images/agents-01.jpg')}}" alt="Images">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- blog -->
+<section class="blog pa-tb">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="section-title">
+                    <h2>recent event</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae earum molestiae, id ratione vero
+                        iure
+                        esse iste laboriosam quisquam quaerat?</p>
+                </div>
+            </div>
+        </div>
+        <div class="row g-0 g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="card-five">
+                    <a href="{{ url ('blog/blog-detail') }}">
+                        <div class="card-img">
+                            <img src="{{asset('frontend/images/3.jpg')}}" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <h6>December 5, 2020</h6>
+                            </div>
+                            <h3 class="card-title"
+                                title="Lorem ipsum dolorsitamet, consectetur adipiscing elit, sed doeiusmod">Lorem ipsum
+                                dolorsitamet, consectetur adipiscing elit, sed doeiusmod</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Quam nulla porttitor massa id. Ut tellus elementum </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card-five">
+                    <a href="{{ url ('blog/blog-detail') }}">
+                        <div class="card-img">
+                            <img src="{{asset('frontend/images/4.jpg')}}" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <h6>December 5, 2020</h6>
+                            </div>
+                            <h3 class="card-title"
+                                title="Lorem ipsum dolorsitamet, consectetur adipiscing elit, sed doeiusmod">Lorem ipsum
+                                dolorsitamet, consectetur adipiscing elit, sed doeiusmod</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Quam nulla porttitor massa id. Ut tellus elementum </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card-five">
+                    <a href="{{ url ('blog/blog-detail') }}">
+                        <div class="card-img">
+                            <img src="{{asset('frontend/images/5.jpg')}}" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <h6>December 5, 2020</h6>
+                            </div>
+                            <h3 class="card-title"
+                                title="Lorem ipsum dolorsitamet, consectetur adipiscing elit, sed doeiusmod">Lorem ipsum
+                                dolorsitamet, consectetur adipiscing elit, sed doeiusmod</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Quam nulla porttitor massa id. Ut tellus elementum </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="javascript:void(0)" class="btn more-btn">see more</a>
+        </div>
+    </div>
+</section>
+
+<!-- location -->
+<section class="location bg-grey pa-t">
+    <div class="row g-0 mb-4">
+        <div class="col-lg-10 offset-lg-1">
+            <div class="section-title">
+                <h2>our location</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae earum molestiae, id ratione vero
+                    iure
+                    esse iste laboriosam quisquam quaerat?</p>
+            </div>
+        </div>
+    </div>
+    <div class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.1531136481162!2d85.32994461487066!3d27.681662182802597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19b25eaa53e9%3A0x75da09407eccb7d1!2sSoftbenz%20Infosys!5e0!3m2!1sen!2snp!4v1649927880928!5m2!1sen!2snp"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
 
 @endsection
